@@ -67,7 +67,7 @@ h3{
 h4 {
     font-size: 32px;
     color: #16736e;
-    background-color: #75e3dd;
+    background-color: #fff9aa;
     display: inline-block;
     margin: 0;
     padding: 4px;
@@ -125,7 +125,7 @@ nav {
 }
 
 .navigation li a {
-    color: #A37254;
+    color: #3CBCB6;
     text-decoration: none;
 }
 
@@ -161,7 +161,7 @@ video {
   }
 
 .scroll {
-    color: #A37254;
+    color: #3CBCB6;
     text-align: center;
 }
 
