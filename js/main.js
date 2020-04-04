@@ -44,6 +44,6 @@ let scrolled = () => {
 addEventListener("scroll", () => {
   myNav.style.setProperty(
     "background",
-    scrolled() > 15 ? "var(--color2)" : "var(--color1)"
+    scrolled() > 13 ? "var(--color2)" : "var(--color1)"
   );
 });

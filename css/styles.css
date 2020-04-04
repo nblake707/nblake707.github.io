@@ -1,6 +1,6 @@
 :root {
     --color1: transparent;
-    --color2: #f2979c;
+    --color2: #FFFBCE;
 }
 
 /* main {
@@ -125,7 +125,7 @@ nav {
 }
 
 .navigation li a {
-    color: white;
+    color: #A37254;
     text-decoration: none;
 }
 
@@ -146,6 +146,7 @@ nav {
 
 .right-col {
     background-color: #F2AA7E;
+    /* background-color: #C4A78D; */
 }
 
 .top-container {
@@ -160,7 +161,7 @@ video {
   }
 
 .scroll {
-    color: #2864b1;
+    color: #A37254;
     text-align: center;
 }
 
