@@ -1,3 +1,14 @@
+:root {
+    --color1: transparent;
+    --color2: rgb(221, 176, 196);
+}
+
+/* main {
+    background: var(--color1);
+    transition: all 350ms ease-out;
+} */
+
+
 html {
     height: 100%;
 }
@@ -100,6 +111,8 @@ nav {
     right:0;
     font-family: 'Prata', serif;
     font-size: 22px;
+    background: var(--color1);
+    transition: all 350ms ease-out;
 }
 
 .navigation {
@@ -112,7 +125,7 @@ nav {
 }
 
 .navigation li a {
-    color: #20c4bb;
+    color: white;
     text-decoration: none;
 }
 
@@ -126,13 +139,13 @@ nav {
 }
 
 .left-col {
-    background-color: #003170;
-    color: white;
+    background-color: #FFF9AA;
+    color:#F2AA7E;
     text-align: center;
 }
 
 .right-col {
-    background-color: #75e3dd;
+    background-color: #F2AA7E;
 }
 
 .top-container {
@@ -140,6 +153,11 @@ nav {
     margin: 0 auto;
     
 }
+
+video {
+    max-width: 100%;
+    height: auto;
+  }
 
 .scroll {
     color: #2864b1;
