@@ -47,3 +47,6 @@ addEventListener("scroll", () => {
     scrolled() > 13 ? "var(--color2)" : "var(--color1)"
   );
 });
+
+
+

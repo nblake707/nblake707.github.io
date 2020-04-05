@@ -122,6 +122,11 @@ nav {
 .navigation li {
     display: inline-block;
     margin: 0 15px;
+    
+}
+
+.navigation li:hover {
+    background-color:#273E47;
 }
 
 .navigation li a {
@@ -180,6 +185,16 @@ video {
     top: -25px;
     /* left: 2.7%; */
 }
+
+.projects a {
+    text-decoration: none;
+    color: #ED9390;
+
+}
+
+.projects a:hover {
+    background-color: #273E47;
+} 
 
 img {
     max-width: 100%;
