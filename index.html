@@ -7,48 +7,97 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
     <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Lora&family=Prata&display=swap" rel="stylesheet">    <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
   </head>
 
   <body>
-    <nav class="shadow p-3 mb-5">
+
+    <!-- <nav class="shadow p-3 mb-5">
       <ul class="navigation">
         <li><a href="#hello">home</a></li>
         <li><a href="#works">works</a></li>
         <li><a href="#contact">contact</a></li>
         <li><a href="https://zety.com/mycv/NateyanaBlake" target="_blank">resume</a></li>
       </ul>
-    </nav>
+    </nav> -->
+
+    <div id="toggleIcon" onclick="menuToggle()"></div>
+    <div id="menu-overlay">
+      <ul>
+        <li><a href="#hello" onclick="menuToggle()" >Home</a></li>
+        <li><a href="#about" onclick="menuToggle()">About</a></li>
+        <li><a href="#works" onclick="menuToggle()">Works</a></li>
+        <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+        <li><a href="https://zety.com/mycv/NateyanaBlake" target="_blank">Resume</a></li>
+      </ul>
+    </div>
+    
     <header class="row" id="hello">
       <!-- left column -->
       <section class="col left-col">
         <div class="top-container">
         <h1>hello</h1>
         <p class="typedText">
-          I'm Nateyana and this is my personal page.   <br/> 
-          I'm a web developer and coding instructor.
+          I'm Nateyana and this is my personal page. 
+           <div id="type-container"><div id="type-text"></div></div>
+          <!-- web developer and coding instructor. -->
         </p>
     
-      </div>
-      </div>
+        </div>
+        
       </section>
       <!-- right column -->
       <section class="col right-col">
           <div class="top-container container-fluid">
-        <!-- <img src="img/cactus.jpg" alt="Cactus" /> -->
-        <video class="vid-border" width="600" autoplay="autoplay" muted>
+        <img src="img/meSmall.jpg" alt="Picture of me" />
+        <!-- <video class="vid-border" width="600" autoplay="autoplay" muted>
           <source src="./videos/video.mp4" type="video/mp4">
-        </video>
+        </video> -->
         </div>
       </section>
     </header>
 
     <main class="container">
-      <p class="scroll" id="works">Scroll down to find out more</p>
+      <p class="scroll" id="about">Scroll down to find out more</p>
+
+        
+      <section class="my-stack" id="about">
+        <h2>About Me</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/team1.jpg" class="img-margin" />
+            <img src="img/team2.jpg" class="img-margin" />
+          </div>
+          <div class="col">
+            <h3>my <br /> story</h3>
+            <p>
+             Hello, my name is Nateyana! I'm a web developer, coding instructor, and curriculum engineer
+             from NYC.  
+             
+             <!-- I got my start through a grant program offered through CUNY Tech Hire. -->
+
+             I discovered programming by chance and what started as a mild interest eventually became a new career path. After receiving a 
+             scholarship through the CUNY Tech Hire program I was able to attend The Software Guild, 
+             a fast-paced apprenticeship program specializing in data-driven Java development. 
+             This hybrid grant program made it possible for me to fully immerse myself in the world of programming. 
+
+             I currently work as an assistant instructor and curriculum engineer within the 2U enterprise bootcamp system and really enjoy working with students. I value the way that our programs can change lives and 
+             enjoy being involved in something that can positively impact others. Learning to program changed my life dramatically and I appreciate that my work is centered around helping others transiton into tech.  
+
+            </p>
+           
+          </div>
+
+         
+        </div>
+      </section>
+
 
 
       <!-- works -->
-      <section class="projects">
+      <section class="projects" id="works">
         <h2>works</h2>
 
         <!-- project 1 -->
@@ -106,43 +155,42 @@
         </div>
       </section>
 
-      <!-- could become a technologies section / icons of different languages 
-      <section class="my-stack">
-        <h2>technologies</h2>
-        <div class="row">
-          <div class="col-md-6">
-            <img src="img/team1.jpg" class="img-margin" />
-            <img src="img/team2.jpg" class="img-margin" />
-          </div>
-          <div class="col">
-            <h3>my <br /> stack</h3>
-            <p>
-             Java is my strongest language. However, I also have experience with JavaScript (including various JavaScript frameworks and libraries), Ruby, and SQL.
-            </p>
-           
-          </div>
-        </div>
-      </section>
-
--->
+    
 
       <!-- contact -->
       <section class="contact" id="contact">
         <h2>contact</h2>
-        <div class="row">
-          <div class="col">
-            <p>Feel free to reach out!</p>
-            <p><strong>Email: <a >nblake707@gmail.com</a></strong></p>
+          <div class="row form_div">
+            <div class="col-sm">
+              <p>Feel free to reach out!</p>
+              <!-- <p><strong>Email: <a>nblake707@gmail.com</a></strong></p> -->
+            </div>
+            
+            <div class="col-sm form-div">
+              <form class="form-style" action="https://formspree.io/f/xyynkveg" method="POST">
+                <ul>
+                  <div>
+                    <li>
+                      <input type="text" id="name" name="name" class="input-style" placeholder="name">
+                    </li>
+                    <li>
+                      <input type="text" id="email" name="_replyto" class="input-style" placeholder="email">
+                    </li>
+                    <li>
+                      <textarea type="text" id="message" name="message" placeholder="message"></textarea>
+                    </li>
+                    <li class="button">
+                      <button type="submit">send</button>
+                    </li>
+                  </div>
+                  
+                </ul>
+              </form>
+
+            </div>
+      
           </div>
           
-            <div class="col">
-              <img src="img/contact1.jpg" />
-            </div>
-            <div class="col">
-              <img src="img/contact2.jpg" />
-            </div>
-          </div>
-        </div>
       </section>
     </main>
 
@@ -168,13 +216,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="./js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/kursor"></script>
-    <script>
+    <!-- <script>
       new kursor({
           type: 2,
           removeDefaultCursor: true,
           color: '#273E47',
       })
-  </script>
+  </script> -->
 
     
   </body>
