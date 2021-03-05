@@ -9,16 +9,6 @@ function menuToggle(){
   nav.classList.toggle('active');
 }
 
-// function closeOverlay(){
-//   var nav = document.getElementById('menu-overlay');
-
-//   // var links = document.querySelectorAll('#menu-overlay ul li a');
-// }
-
-
-
-
-
 /////////////  Typing Animation ///////////////////
 
 
