@@ -360,17 +360,15 @@ form.form-style {
 
 }
 
-@media (min-width: 992px) and (max-width : 1200px){
+@media (min-width: 1100px) and (max-width : 2000px){
 
-    form.form-style {
-        min-height: 70%;
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        background-color: darkslategray;
-        border-radius: 8%;
-    
-    }
+   button {
+       margin-bottom: 20%;
+   }
+
+   #name.input-style {
+       margin-top: 20%
+   }
 
 }
 
