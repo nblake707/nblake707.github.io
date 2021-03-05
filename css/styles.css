@@ -170,12 +170,12 @@ h2 {
 
 .my-stack h2 {
     color: #003170;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 
 }
 
 .img-margin {
-    margin-bottom: 60px;
+    margin-bottom: 49px;
 
 }
 
@@ -357,6 +357,20 @@ form.form-style {
     justify-items: center;
     background-color: darkslategray;
     border-radius: 8%;
+
+}
+
+@media (min-width: 992px) and (max-width : 1200px){
+
+    form.form-style {
+        min-height: 70%;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        background-color: darkslategray;
+        border-radius: 8%;
+    
+    }
 
 }
 
