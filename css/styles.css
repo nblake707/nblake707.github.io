@@ -162,21 +162,34 @@ h2 {
 
 .projects h2 {
     color: darkseagreen;
+    text-align: right;
+    margin-bottom: 8%;
+    font-size: 7em;
 }
+
+ /* .projects h2 {
+        color: darkseagreen;
+        font-size: 5em;
+        text-align: right;
+    } */
 
 .my-stack{
     margin-top: 10%;
 }
 
+.about-me {
+    padding-top: 4%; 
+}
+
+
 .my-stack h2 {
     color: #003170;
     margin-bottom: 2%;
-
+    font-size: 6em;
 }
 
 .img-margin {
     margin-bottom: 49px;
-
 }
 
 .contact h2 {
@@ -524,11 +537,7 @@ footer {
         margin-bottom: 8%;
     }
 
-    .projects h2 {
-        color: darkseagreen;
-        font-size: 5em;
-        text-align: center;
-    }
+
 
     .contact p {
         display: none;
