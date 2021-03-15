@@ -45,10 +45,6 @@ q:before, q:after {
     --color2: #FFFCDD;
 }
 
-main {
-    position: relative;
-    z-index: 2;
-}
 
 
 html {
@@ -81,7 +77,6 @@ h2 {
     font-size: 100px;
 }
 
-/* Menu overlay */
 
 #menu-overlay {
     position: fixed;
@@ -185,7 +180,7 @@ h2 {
 .my-stack h2 {
     color: #003170;
     margin-bottom: 2%;
-    font-size: 6em;
+    font-size: 5em;
 }
 
 .img-margin {
@@ -472,6 +467,7 @@ footer {
     align-items: center;
     margin-top: 6%;
     text-align: center;
+
 }
 
 
