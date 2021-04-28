@@ -571,25 +571,11 @@ img {
 
 }
 
-
-
-
-
-
-
-
 /* smaller screens  */
 
 @media only screen and (max-width: 500px){
     /* Small smartphones [325px -> 425px] */
 
-    /* .col {
-        -ms-flex-preferred-size: 0;
-        flex-basis: 40px;
-        -ms-flex-positive: 1;
-        flex-grow: 1;
-        max-width: 100%;
-    } */
 
     section.col.right-col {
         display: none;
@@ -605,8 +591,6 @@ img {
         height: 95vh;
     }
 
-
-
     section.contact {
         height: 68vh;
         margin-top: 5%;
@@ -621,8 +605,6 @@ img {
         margin-bottom: 8%;
         
     }
-
-
 
     .contact p {
         display: none;
