@@ -13,7 +13,7 @@ function menuToggle(){
 
 
 // List of sentences
-var _CONTENT = [ "I'm a web developer", "I'm a coding instructor", "I'm a curriculum engineer"];
+var _CONTENT = [ "I'm a teaching assistant", "I'm a multimedia computing student", "I'm a computer science student"];
 
 // Current sentence being processed
 var _PART = 0;
